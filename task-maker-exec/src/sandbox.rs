@@ -386,7 +386,7 @@ impl Sandbox {
         }
         config.syscall_filter(SyscallFilter::build(
             execution.limits.allow_multiprocess,
-            !execution.limits.read_only,
+            true,
         ));
         // has to be writable for mounting stuff in it
         config.mount(boxdir.join("etc"), "/etc", true);
