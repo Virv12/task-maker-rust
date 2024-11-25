@@ -37,7 +37,7 @@ ductile = { workspace = true }
 # Key Derivation Function from a password
 blake3 = { workspace = true }
 # Typescript definition generation
-typescript-definitions = { workspace = true }
+typescript-definitions = { git = "https://github.com/onelson/typescript-definitions", branch = "no-debug-attrs" }
 crossbeam-channel = { workspace = true }
 
 [dev-dependencies]

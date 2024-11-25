@@ -14,7 +14,7 @@ uuid = { workspace = true, features = ["v4", "fast-rng", "serde"] }
 # Generic error utilities
 anyhow = { workspace = true, features = ["backtrace"] }
 # Typescript definition generation
-typescript-definitions = { workspace = true }
+typescript-definitions = { git = "https://github.com/onelson/typescript-definitions", branch = "no-debug-attrs" }
 
 [dev-dependencies]
 tempfile = { workspace = true }

@@ -20,7 +20,7 @@ which = { workspace = true }
 # Split command line arguments
 shell-words = { workspace = true }
 # Typescript definition generation
-typescript-definitions = { workspace = true }
+typescript-definitions = { git = "https://github.com/onelson/typescript-definitions", branch = "no-debug-attrs" }
 
 [dev-dependencies]
 task-maker-exec = { path = "../task-maker-exec" }
