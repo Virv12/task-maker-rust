@@ -1,6 +1,14 @@
 [workspace]
 
-members = ["task-maker-*"]
+members = [
+    "task-maker-cache",
+    "task-maker-dag",
+    "task-maker-diagnostics",
+    "task-maker-exec",
+    "task-maker-format",
+    "task-maker-lang",
+    "task-maker-store"
+]
 
 [package]
 name = "task-maker-rust"
